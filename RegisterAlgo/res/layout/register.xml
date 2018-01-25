@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scReg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+        android:background="@drawable/simple">
+    
+    <RelativeLayout
+        android:layout_width="391dp"
+        android:layout_height="566dp" >
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration Form"
+        android:textColor="#FF6347"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    
+    
+    <LinearLayout 
+        android:id="@+id/layGNO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt2"
+        android:layout_marginTop="10dp">
+    <TextView
+        android:id="@+id/txtGNO"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="Group No."
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+   
+    <EditText
+        android:id="@+id/etGNO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/txtGNO"
+        android:ems="10"
+        android:hint="Group No."
+        android:inputType="text" />
+    </LinearLayout>
+    
+    
+    <LinearLayout 
+        android:id="@+id/layName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layGNO"
+        android:layout_marginTop="10dp">
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="Name"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+   
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/txtName"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+    </LinearLayout>
+
+    
+    
+      <LinearLayout 
+        android:id="@+id/layRNO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layName"
+        android:layout_marginTop="10dp">
+    <TextView
+        android:id="@+id/txtRNO"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="Roll No."
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+   
+    <EditText
+        android:id="@+id/etRNO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/txtRNO"
+        android:ems="10"
+        android:hint="Roll No."
+        android:inputType="text" />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/layClg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layRNO"
+        android:layout_marginTop="10dp">
+    <TextView
+        android:id="@+id/txtClg"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="College"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+   
+    <EditText
+        android:id="@+id/etClg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/txtClg"
+        android:ems="10"
+        android:hint="College Name"
+        android:inputType="text" />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/layYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layClg"
+        android:layout_marginTop="10dp">
+    <TextView
+        android:id="@+id/txtYear"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="Year"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+   
+    <EditText
+        android:id="@+id/etYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/txtYear"
+        android:ems="10"
+        android:hint="Year Of Studing"
+        android:inputType="text" />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/layCon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layYear"
+        android:layout_marginTop="10dp">
+    <TextView
+        android:id="@+id/txtCon"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="Contact"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+   
+    <EditText
+        android:id="@+id/etCon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/txtCon"
+        android:ems="10"
+        android:hint="Contact Number"
+        android:inputType="phone" />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/layEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layCon"
+        android:layout_marginTop="10dp">
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="Email"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+   
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/txtEmail"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+    </LinearLayout>
+  
+    <LinearLayout 
+        android:id="@+id/layAmntP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layEmail"
+        android:layout_marginTop="10dp">
+    <TextView
+        android:id="@+id/txtAmntP"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="Paid"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+   
+    <EditText
+        android:id="@+id/etAmntP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/txtAmntP"
+        android:ems="10"
+        android:hint="Ammount Paid"
+        android:inputType="numberDecimal" />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/layAmntR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layAmntP"
+        android:layout_marginTop="10dp">
+    <TextView
+        android:id="@+id/txtAmntR"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="Remains"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+   
+    <EditText
+        android:id="@+id/etAmntR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/txtAmntR"
+        android:hint="Remaining Ammount"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/layMem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layAmntR"
+        android:layout_marginTop="10dp">
+    <TextView
+        android:id="@+id/txtMem"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="No. Of Members"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+   
+    <EditText
+        android:id="@+id/etMem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/txtMem"
+        android:ems="10"
+        android:hint="Number Of Members"
+        android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/layMem"
+        android:layout_marginLeft="111dp" >
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:text="Register" 
+            android:textColor="#FF6347"
+        	android:textSize="30dp"
+        	android:textStyle="bold"
+            android:bufferType="@android:color/transparent"/>
+    </LinearLayout>
+    
+</RelativeLayout>
+ </ScrollView>

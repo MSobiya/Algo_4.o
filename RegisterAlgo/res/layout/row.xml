@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/Sgno"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/Sname"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/Srno"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="" />
+    
+    <TextView
+        android:id="@+id/Sclg"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:text="" />
+    
+    <TextView
+        android:id="@+id/Syear"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="" />
+    
+    <TextView
+        android:id="@+id/Scon"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="" />
+    
+    <TextView
+        android:id="@+id/Semail"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="" />
+    
+    <TextView
+        android:id="@+id/Samnt_p"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="" />
+    
+    <TextView
+        android:id="@+id/Samnt_r"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="" />
+    
+    <TextView
+        android:id="@+id/Smem"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="" />
+    
+    <TextView
+        android:id="@+id/Steam"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="" />
+    
+   
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/simple"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.registeralgo.MainActivity" >
+
+    
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Algorithm 3.o Registration App"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF6347"
+        android:textStyle="bold|italic"
+        android:textSize="30dp" />
+    
+    <Button
+        android:id="@+id/btnReg"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:text="Register Here"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center" 
+        android:textColor="#FF6347"
+        />
+
+    <Button
+        android:id="@+id/btnSql"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnReg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:text="Register Remaining Entries"
+        android:textColor="#FF6347"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center" 
+        android:background="@android:color/transparent"
+        />
+
+    <Button
+        android:id="@+id/btnDis"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSql"
+        android:textStyle="bold"
+        android:layout_marginTop="37dp"
+        android:layout_centerHorizontal="true"
+        android:text="Display" 
+        android:textColor="#FF6347"
+        android:textSize="20dp"
+        android:layout_gravity="center" 
+        android:background="@android:color/transparent"
+        />
+
+</RelativeLayout>
